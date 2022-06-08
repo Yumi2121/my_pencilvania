@@ -3,6 +3,6 @@ module ListingsHelper
         words = condition.split("_").map do |word|
             word.capitalize
         end
-        words.join("")
+        words.join(" ")
     end
 end
